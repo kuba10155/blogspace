@@ -1,0 +1,42 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: beige;
+  height: 30px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar h3 {
+  margin: 0;
+}
+
+#posts-container {
+  padding: 10px;
+}
+
+p {
+  max-width: 80%;
+}
+
+#post-title, #post-body {
+  margin-bottom: 10px;
+}
+
+form {
+  background: lightblue;
+  display: grid;
+  padding: 50px 10px 10px;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
